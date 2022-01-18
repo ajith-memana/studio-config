@@ -1,0 +1,10 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="DemoNetworkDataUsageFragment" />
+        <option value="Valid MacAddress" />
+      </list>
+    </option>
+  </component>
+</application>
