@@ -4,6 +4,7 @@
       <list>
         <option value="DemoNetworkDataUsageFragment" />
         <option value="Valid MacAddress" />
+        <option value="Conversion in UnitDefinitionHandler failed. Could not find a matching rule to convert the current unit from peripheral (null) to requested unit from cloud(kg)" />
       </list>
     </option>
   </component>
