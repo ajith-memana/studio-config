@@ -4,6 +4,18 @@
       <PhysicalDevice>
         <key>
           <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="RZ8R10GW60M" />
+          </Key>
+        </key>
+        <lastOnlineTime value="2022-02-17T05:03:43.099366Z" />
+        <name value="samsung SM-A515F" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
             <type value="DOMAIN_NAME" />
             <value value="adb-0B7AYS0130A-YNWnzx._adb-tls-connect._tcp." />
           </Key>
@@ -22,17 +34,6 @@
         <name value="NUU S6003L" />
         <target value="Android 10.0" />
         <api value="29" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="RZ8R10GW60M" />
-          </Key>
-        </key>
-        <name value="samsung SM-A515F" />
-        <target value="Android 11.0" />
-        <api value="30" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
