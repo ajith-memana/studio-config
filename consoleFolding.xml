@@ -1,10 +1,10 @@
 <application>
   <component name="ConsoleFoldingSettings">
-    <option name="addedPositive">
+    <option name="removedPositive">
       <list>
-        <option value="DemoNetworkDataUsageFragment" />
-        <option value="Valid MacAddress" />
-        <option value="Conversion in UnitDefinitionHandler failed. Could not find a matching rule to convert the current unit from peripheral (null) to requested unit from cloud(kg)" />
+        <option value="java.lang.reflect.Constructor.newInstance(" />
+        <option value="java.lang.Thread.run(" />
+        <option value="java.lang.reflect.Method.invoke(" />
       </list>
     </option>
   </component>
