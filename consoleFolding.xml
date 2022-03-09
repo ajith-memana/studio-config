@@ -1,5 +1,10 @@
 <application>
   <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="Accessing hidden method" />
+      </list>
+    </option>
     <option name="removedPositive">
       <list>
         <option value="java.lang.reflect.Constructor.newInstance(" />
