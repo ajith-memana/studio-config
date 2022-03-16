@@ -3,6 +3,7 @@
     <option name="addedPositive">
       <list>
         <option value="Accessing hidden method" />
+        <option value="Agent attach failed" />
       </list>
     </option>
     <option name="removedPositive">
