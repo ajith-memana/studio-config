@@ -5,6 +5,17 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="RZ8R10GW60M" />
+          </Key>
+        </key>
+        <name value="samsung SM-A515F" />
+        <target value="Android 12.0" />
+        <api value="31" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="MBX6203800499" />
           </Key>
         </key>
@@ -17,18 +28,6 @@
           <Key>
             <type value="DOMAIN_NAME" />
             <value value="adb-RZ8R10GW60M-stmLsy._adb-tls-connect._tcp." />
-          </Key>
-        </key>
-        <lastOnlineTime value="2022-03-17T13:54:00.499997Z" />
-        <name value="samsung SM-A515F" />
-        <target value="Android 11.0" />
-        <api value="30" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="RZ8R10GW60M" />
           </Key>
         </key>
         <name value="samsung SM-A515F" />
