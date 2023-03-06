@@ -1,12 +1,16 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="favorites">
+      <list>
+        <option value="com.korewireless." />
+      </list>
+    </option>
     <option name="mostRecentlyUsed" value="com.korewireless." />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine " />
-        <option value="com.korewireless." />
-        <option value="com.korewire" />
         <option value="package:mine Completed" />
+        <option value="package:mine " />
+        <option value="com.korewire" />
         <option value="package:mine testtt" />
       </list>
     </option>
