@@ -5,9 +5,10 @@
         <option value="com.korewireless." />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="com.korewireless." />
+    <option name="mostRecentlyUsed" value="com.korewireless. level:warn " />
     <option name="nonFavorites">
       <list>
+        <option value="com.korewireless. level:warn " />
         <option value="package:mine Completed" />
         <option value="package:mine " />
         <option value="com.korewire" />
