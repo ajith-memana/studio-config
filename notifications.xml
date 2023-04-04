@@ -3,6 +3,7 @@
     <notification groupId="Android Gradle Upgrade Notification" />
     <notification groupId="Build sync orphan modules" displayType="NONE" shouldLog="false" />
     <notification groupId="Gradle Notification Group" displayType="NONE" shouldLog="false" />
+    <notification groupId="JDK Location different to JAVA_HOME" displayType="NONE" shouldLog="false" />
     <notification groupId="Keymap" displayType="NONE" />
   </component>
 </application>
