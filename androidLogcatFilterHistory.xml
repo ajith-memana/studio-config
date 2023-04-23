@@ -5,11 +5,11 @@
         <option value="com.korewireless." />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:mine TEST" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine TEST" />
         <option value="package:mine " />
+        <option value="package:mine Test" />
+        <option value="package:mine TEST" />
         <option value="package:mine test" />
         <option value="package:com.korewireless. processed " />
         <option value="package:com.korewireless.gatewayapp." />
