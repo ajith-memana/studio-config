@@ -1,0 +1,22 @@
+<application>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="ef9982">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="ef9982" />
+              <option name="initiateTms" value="1682438472153" />
+              <option name="request" value="I am getting an eror saying pixabayImageService is not initialized" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Looking at the current file, it seems that the `pixabayImageService` is declared as a `@Mock` object but it is not initialized. This is causing the error you are seeing. &#10;&#10;To fix this error, you need to initialize the `pixabayImageService` object before using it. You can do this by using a mocking framework like Mockito to create a mock object of the `PixabayImageService` interface and then assign it to the `pixabayImageService` variable. &#10;&#10;Here's an example of how you can initialize the `pixabayImageService` object using Mockito:&#10;&#10;```kotlin&#10;@BeforeEach&#10;fun setUp() {&#10;    MockitoAnnotations.initMocks(this)&#10;&#10;    // Create a mock object of the PixabayImageService interface&#10;    pixabayImageService = mock()&#10;&#10;    this.imagesRepository = ImagesRepository(this.pixabayImageService, this.pixabayImagesDao)&#10;}&#10;```&#10;&#10;With this change, the `pixabayImageService` object will be initialized and you should no longer see the error." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1682438494891" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
