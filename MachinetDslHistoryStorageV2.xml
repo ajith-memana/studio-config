@@ -2,6 +2,21 @@
   <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
     <option name="historyDtoById">
       <map>
+        <entry key="1aa6f6">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="1aa6f6" />
+              <option name="initiateTms" value="1682490901218" />
+              <option name="isStopped" value="true" />
+              <option name="request" value="Generate Unit test for ImagesRepository" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Sure, here's an example of a unit test for the `ImagesRepository` class:&#10;&#10;```kotlin&#10;@RunWith(MockitoJUnitRunner::class)&#10;class ImagesRepositoryTest {&#10;&#10;    @Mock&#10;    private lateinit var pixabayImageService: PixabayImageService&#10;&#10;    @Mock&#10;    private lateinit var pixabayImagesDao: PixabayImagesDao&#10;&#10;    private lateinit var imagesRepository: ImagesRepository&#10;&#10;    @Before&#10;    fun setUp() {&#10;        imagesRepository = ImagesRepository(pixabayImageService, pixabayImagesDao)&#10;    }&#10;&#10;    @Test&#10;    fun `fetchImagesForQueryString should call getImagesByQueryString`() {&#10;        // Given&#10;        val queryString = &quot;test&quot;&#10;        val call = mock&lt;Call&lt;SearchResponse&gt;&gt;()&#10;        `when`(pixabayImageService.getImagesByQueryString(anyString(), anyString())).thenReturn(call)&#10;&#10;        // When&#10;        imagesRepository.fetchImagesForQueryString(queryString) {}&#10;&#10;        // Then&#10;        verify(pixabayImageService).getImagesByQueryString(eq(PIXABAY_API_KEY), eq(queryString))&#10;    }&#10;&#10;    @Test&#10;    fun `fetchImagesForQueryString should insert images to database`() {&#10;        // Given&#10;        val queryString = &quot;test&quot;&#10;        val call = mock&lt;Call&lt;SearchResponse&gt;&gt;()&#10;        val response = mock&lt;Response&lt;SearchResponse&gt;&gt;()&#10;        val searchResponse = mock&lt;SearchResponse&gt;()&#10;        val hits = listOf(mock&lt;Hit&gt;())&#10;        val pixabayImageItems = listOf(mock&lt;PixabayImageItem&gt;())&#10;        `when`(pixabayImageService.getImagesByQueryString(anyString(), anyString())).thenReturn(call)&#10;        `when`(response.body()).thenReturn(searchResponse)&#10;        `when`(searchResponse.hits).thenReturn(hits)&#10;        `when`(hits.map(any())).thenReturn(pixabayImageItems)&#10;&#10;        // When&#10;        imagesRepository.fetchImagesForQueryString(queryString) {}&#10;&#10;        // Then&#10;        verify(pixabayImagesDao).deleteAll()&#10;        verify(pixabayImagesDao).insertAll(pixabayImageItems)&#10;    }&#10;&#10;    @Test&#10;    fun `fetchImagesForQueryString should call onSearchComplete`() {&#10;        // Given&#10;        val queryString = &quot;test&quot;&#10;        val call = mock&lt;Call&lt;SearchResponse&gt;&gt;()&#10;        `when`(pixabayImageService.getImagesByQueryString(anyString(), anyString())).thenReturn(call)&#10;        val onSearchComplete = mock&lt;() -&gt; Unit&gt;()&#10;&#10;        // When&#10;        imagesRepository.fetchImagesForQueryString(queryString, onSearchComplete)&#10;&#10;        // Then&#10;        verify(onSearchComplete).invoke()&#10;    }&#10;&#10;    @Test&#10;    fun `observeStoredImages should return images from database`() {&#10;        // Given&#10;        val images = listOf(mock&lt;PixabayImageItem&gt;())&#10;        `when`(pixabayImagesDao.getAllImages()).thenReturn(mock())&#10;&#10;        // When&#10;        imagesRepository.observeStoredImages()&#10;&#10;        // Then&#10;        verify(pixabayImagesDao).getAllImages()&#10;    }&#10;}&#10;```&#10;&#10;This test suite includes four tests:&#10;&#10;1. `fetchImagesForQueryString should call getImagesByQueryString`: This test verifies that the `fetchImagesForQueryString` method calls the `getImagesByQueryString` method of the `pixabayImageService` object with the correct parameters.&#10;&#10;2. `fetchImagesForQueryString should insert images to database`: This test verifies that the `fetchImagesForQueryString` method inserts the images returned by the Pixabay API to the database using the `pixabayImagesDao` object.&#10;&#10;3. `fetchImagesForQueryString should call onSearchComplete`: This test verifies that the `fetchImagesForQueryString` method calls the `onSearchComplete` callback after completing the API call.&#10;&#10;4. `observeStoredImages should return images from database`: This test verifies that the `observeStoredImages` method returns the images stored in the database using the `pixabayImagesDao` object.&#10;&#10;Note that this is just an example of a unit test and you may need to modify it to fit your specific use case." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1682490979314" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
         <entry key="ef9982">
           <value>
             <ChatHistoryModel>
@@ -13,6 +28,21 @@
               <option name="responseFileName" value="" />
               <option name="responseFilePath" value="" />
               <option name="responseTms" value="1682438494891" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="f60363">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="f60363" />
+              <option name="initiateTms" value="1682490728956" />
+              <option name="isStopped" value="true" />
+              <option name="request" value="Order the ext values in gradle alphabetically" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Sure, to order the `ext` values in the `build.gradle` file alphabetically, you can simply sort them in ascending order. Here's the updated `build.gradle` file with the `ext` values sorted alphabetically:&#10;&#10;```gradle&#10;buildscript {&#10;    ext {&#10;        activityComposeVersion = '1.7.0'&#10;        coilComposeVersion = '2.2.0'&#10;        compose_version = '1.5.0-alpha02'&#10;        coreKtxVersion = '1.10.0'&#10;        espressoVersion = '3.5.1'&#10;        gsonConvertorVersion = &quot;2.9.0&quot;&#10;        hiltVersion = '2.44'&#10;        junitExtVersion = '1.1.5'&#10;        junitVersion = '4.13.2'&#10;        lifecycleVersion = '2.6.1'&#10;        material3Version = '1.1.0-beta02'&#10;        materialVersion = '1.8.0'&#10;        nav_version = &quot;2.5.3&quot;&#10;        retrofitVersion = '2.9.0'&#10;        roomVersion = '2.5.1'&#10;    }&#10;&#10;    dependencies {&#10;        classpath &quot;com.google.dagger:hilt-android-gradle-plugin:$hiltVersion&quot;&#10;    }&#10;}&#10;&#10;// Top-level build file where you can add configuration options common to all sub-projects/modules.&#10;plugins {&#10;    id 'com.android.application' version '7.4.0' apply false&#10;    id 'com.android.library' version '7.4.0' apply false&#10;    id 'org.jetbrains.kotlin.android' version '1.8.0' apply false&#10;}&#10;```&#10;&#10;As you can see, the `ext` values are now sorted alphabetically." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1682490767583" />
             </ChatHistoryModel>
           </value>
         </entry>
