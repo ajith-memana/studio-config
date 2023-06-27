@@ -10,9 +10,13 @@
           <option name="url" value="https://github.com/android/nowinandroid.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/ajithmemana/test-compose-multiplatform.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/android/nowinandroid" />
+    <option name="cloneParentDir" value="$USER_HOME$/android" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ID_ORDER">
