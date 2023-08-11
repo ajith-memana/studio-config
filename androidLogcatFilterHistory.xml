@@ -5,8 +5,10 @@
         <option value="com.korewireless." />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="package:mine onresume" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine onresume" />
         <option value="package:mine " />
         <option value="package:mine Permission" />
         <option value="package:mine Permissions" />
