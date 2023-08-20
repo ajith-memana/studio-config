@@ -8,6 +8,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="PACKAGE:MINE " />
         <option value="package:mine Permission" />
         <option value="package:mine onresume" />
         <option value="package:mine Permissions" />
