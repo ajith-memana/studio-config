@@ -5,8 +5,10 @@
         <option value="com.korewireless." />
       </list>
     </option>
+    <option name="mostRecentlyUsed" value="mysewnet" />
     <option name="nonFavorites">
       <list>
+        <option value="mysewnet" />
         <option value="package:mine " />
         <option value="PACKAGE:MINE " />
         <option value="package:mine Permission" />
