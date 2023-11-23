@@ -8,6 +8,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine " />
+        <option value="package:mine test" />
         <option value="package:mine macaddr" />
         <option value="mysewnet" />
         <option value="PACKAGE:MINE " />
@@ -18,7 +19,6 @@
         <option value="package:mine requestPermissions" />
         <option value="package:mine Test" />
         <option value="package:mine TEST" />
-        <option value="package:mine test" />
         <option value="package:com.korewireless. processed " />
         <option value="package:com.korewireless.gatewayapp." />
         <option value="PROCESSED" />
